@@ -19,7 +19,6 @@ class App extends Component {
         <Drawer title={<Link style={{textDecoration: 'none'}} to="/">MyPortfolio</Link>}>
             <Navigation>
               <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About me</Link>
               <Link to="/projects">Project</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
